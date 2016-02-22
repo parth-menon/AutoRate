@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/gradient1"
+    tools:context=".HomeActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/places_icon" />
+
+        <Button
+            android:id="@+id/button1_nearby"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="64dp"
+            android:background="#EB0555"
+            android:padding="10dp"
+            android:text="Bus Stations"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/taxi" />
+
+        <Button
+            android:id="@+id/button2_rate"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:background="#FAB41E"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Auto/Taxi Rate" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/area" />
+        <Button
+            android:id="@+id/button3_path"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:background="#2DEB9F"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Alternate Path" />
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/police" />
+        <Button
+            android:id="@+id/button4_police"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="60dp"
+            android:background="#2021d3"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Police Stations" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       >
+    </LinearLayout>
+</LinearLayout>
